@@ -59,6 +59,8 @@ const startBoard = game => {
         game.movePiece(clickedPieceName, position);
     }
 
+    console.log(data)
+
     squares.forEach( square => {
         square.addEventListener("click", function () {
             movePiece(this);
